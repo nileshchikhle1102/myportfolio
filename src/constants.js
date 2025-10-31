@@ -39,9 +39,9 @@ import agcLogo from './assets/company_logo/agc_logo.png';
 import newtonschoolLogo from './assets/company_logo/newtonschool_logo.png';
 
 // Education Section Logo's
-import glaLogo from './assets/education_logo/gla_logo.png';
-import bsaLogo from './assets/education_logo/bsa_logo.png';
-import vpsLogo from './assets/education_logo/vps_logo.png';
+import lkshs from './assets/education_logo/LKSHS.png';
+import bhalerao from './assets/education_logo/Bhalerao.png';
+import ghru from './assets/education_logo/GHRU.png';
 
 // Project Section Logo's
 import githubdetLogo from './assets/work_logo/github_det.png';
@@ -56,35 +56,6 @@ import removebgLogo from './assets/work_logo/remove_bg.png';
 
 
 export const SkillsInfo = [
-  {
-    title: 'Frontend',
-    skills: [
-      { name: 'HTML', logo: htmlLogo },
-      { name: 'CSS', logo: cssLogo },
-      { name: 'SASS', logo: sassLogo },
-      { name: 'JavaScript', logo: javascriptLogo },
-      { name: 'React JS', logo: reactjsLogo },
-      { name: 'Angular', logo: angularLogo },
-      { name: 'Redux', logo: reduxLogo },
-      { name: 'Next JS', logo: nextjsLogo },
-      { name: 'Tailwind CSS', logo: tailwindcssLogo },
-      { name: 'GSAP', logo: gsapLogo },
-      { name: 'Material UI', logo: materialuiLogo },
-      { name: 'Bootstrap', logo: bootstrapLogo },
-    ],
-  },
-  {
-    title: 'Backend',
-    skills: [
-      { name: 'Springboot', logo: springbootLogo },
-      { name: 'Node JS', logo: nodejsLogo },
-      { name: 'Express JS', logo: expressjsLogo },
-      { name: 'MySQL', logo: mysqlLogo },
-      { name: 'MongoDB', logo: mongodbLogo },
-      { name: 'Firebase', logo: firebaseLogo },
-      { name: 'PostgreSQL', logo: postgreLogo },
-    ],
-  },
   {
     title: 'Languages',
     skills: [
@@ -171,39 +142,30 @@ export const SkillsInfo = [
   export const education = [
     {
       id: 0,
-      img: glaLogo,
-      school: "GLA University, Mathura",
+      img: ghru,
+      school: "G.H. Raisoni University, Saikheda",
       date: "Sept 2022 - July 2024",
-      grade: "7.81 CGPA",
-      desc: "I have completed my Master's degree (MCA) in Computer Applications from GLA University, Mathura. During my time at GLA, I gained a strong foundation in programming, software development, and computer science principles. I have studied courses such as Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Web Development, and Software Engineering. I actively participated in various workshops and technical events, which enhanced my skills and knowledge. My experience at GLA University has been instrumental in shaping my technical abilities and professional growth.",
-      degree: "Master of Computer Applications - MCA",
+      grade: "8.6 CGPA",
+      desc: "I have completed my Bachelor of Technology degree (B.Tech) in Computer Science from GH Raisoni University, Saikheda. During my time at GHRU, I gained a strong foundation in programming, software development, and computer science principles. I have studied courses such as Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Web Development, and Software Engineering. I actively participated in various workshops and technical events, which enhanced my skills and knowledge. My experience at GHRU University has been instrumental in shaping my technical abilities and professional growth.",
+      degree: "Bachelor of Technology - B.Tech (Computer Science)",
     },
     {
       id: 1,
-      img: bsaLogo,
-      school: "BSA College, Mathura",
+      img: bhalerao,
+      school: "Bhalerao Science College, Saoner",
       date: "Sept 2018 - Aug 2021",
-      grade: "73.2%",
-      desc: "I completed my Bachelor's degree in Computer Science (B.Sc.) from BSA College, Mathura. Throughout my studies, I was immersed in a variety of subjects that deepened my understanding of computing and technology. From exploring Data Structures and Algorithms to diving into Web Development and Database Management Systems, I gained practical insights into the world of software development. My time at BSA College allowed me to work on projects that applied theoretical concepts to real-world problems.",
-      degree: "Bachelor of Science - BSC (Computer Science)",
+      grade: "59.80%",
+      desc: "I completed my class 12 education from Bhalerao Science College, Saoner, under the State board, where I studied Physics, Chemistry, and Mathematics (PCM) with Computer Science.",
+      degree: "State Board(XII) - PCM with Computer Science",
     },
     {
       id: 2,
-      img: vpsLogo,
-      school: "Vatsalya Public School Govardhan, Mathura",
+      img: lkshs,
+      school: "Lala Kailashpat Singhania High School, Lodhikedha",
       date: "Apr 2017 - March 2018",
-      grade: "78%",
-      desc: "I completed my class 12 education from Vatsalya Public School, Govardhan, under the CBSE board, where I studied Physics, Chemistry, and Mathematics (PCM) with Computer Science.",
-      degree: "CBSE(XII) - PCM with Computer Science",
-    },
-    {
-      id: 3,
-      img: vpsLogo,
-      school: "Vatsalya Public School Govardhan, Mathura",
-      date: "Apr 2015 - March 2016",
-      grade: "87.5%",
-      desc: "I completed my class 10 education from Vatsalya Public School, Govardhan, under the CBSE board, where I studied Science with Computer.",
-      degree: "CBSE(X), Science with Computer Application",
+      grade: "72.20%",
+      desc: "I completed my class 10 education from Lala Kailashpat Singhania High School, Lodhikedha, under the CBSE board.",
+      degree: "CBSE(X)",
     },
   ];
   

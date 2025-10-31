@@ -1,19 +1,20 @@
 import React from "react";
 import { Typewriter } from "react-simple-typewriter";
 import Tilt from "react-parallax-tilt";
-import profileImage from "../../assets/profile2.png";
+import profileImage from "../../assets/profile3.png";
 
 const About = () => {
   return (
     <section
       id="about"
-      className="py-4 px-[7vw] md:px-[7vw] lg:px-[20vw] font-sans mt-16 md:mt-24 lg-mt-32"
+      // md:px-[2vw] lg:px-[2vw] font-sans bg-skills-gradient 
+      className="py-4 px-[7vw] md:px-[7vw] lg:px-[5vw] font-sans mt-16 md:mt-24 lg-mt-32"
     >
       <div className="flex flex-col-reverse md:flex-row justify-between items-center">
         {/* Left Side  */}
         <div className="md:w-1/2 text-center md:text-left mt-8 md:mt-0">
           {/* Greeting */}
-          <h1 className="text-3xl sm:text-5xl md:text-6xl font-bold text-white mb-2 leading-tight">
+          <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold text-white mb-2 leading-tight">
             Hi, I'm
           </h1>
           <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-4 leading-tight">
@@ -21,7 +22,7 @@ const About = () => {
           </h2>
 
           {/* Skills heading with typing effect */}
-          <h3 className="text-xl sm:text-2xl md:text-3xl font-semibold mb-4 text-[#8245ec] leading-tight">
+          <h3 className="text-xl sm:text-2xl md:text-3xl font-semibold mb-4 text-[#cf0000a3] leading-tight">
             <span className="text-white">I am a </span>
             <Typewriter
               words={[
@@ -60,7 +61,7 @@ const About = () => {
             className="inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105"
             style={{
               background: "liner-gradient(90deg, #8245ec, #a855f7)",
-              boxShadow: "0 0 2px #8245ec, 0 0 2px #8245ec, 0 0 40px #8245ec",
+              boxShadow: "0 0 2px #8245ec, 0 0 2px #8245ec, 0 0 15px #8245ec",
             }}
           >
             Download CV
@@ -69,12 +70,11 @@ const About = () => {
         {/* Right Side  */}
         <div className="md:w-1/2 flex justify-center md:justify-end">
           <Tilt
-            className="w-48 h-48 sm:h-64 md:w-[30rem] md:h-[30rem] border-4 border-purple-700 rounded-full"
-            tileMaxAngleX={20}
-            tileMaxAngleY={20}
-            perspective={1000}
-            scale={1.05}
-            transitionSpeed={1000}
+            className="w-48 h-48 sm:h-64 md:w-[25rem] md:h-[25rem] border-2 rounded-full parallax-effect-glare-scale"
+            perspective={500}
+            glareEnable={true}
+            glareMaxOpacity={0.45}
+            scale={1.02}
             gyroscope={true}
           >
             <img
